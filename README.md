@@ -1,6 +1,6 @@
 # 🕹️ Jouons - Site Web de Jeux
 
-![Aperçu du site](./assets/image.png) <!-- Tu peux garder ce nom car tu l’as uploadé -->
+![Aperçu du site](./assets/website.png) <!-- Tu peux garder ce nom car tu l’as uploadé -->
 
 ## 📝 Description
 
@@ -30,31 +30,25 @@ Le site propose une interface moderne, stylisée et rétro, avec navigation clai
 
 ## 🛠️ Technologies utilisées
 
-- HTML5 / CSS3
-- PHP (mini-jeu de devinette)
-- Font Awesome (icônes)
-- Google Fonts - Press Start 2P
-- Flexbox + CSS Grid
-- (Facultatif : JS pour futures fonctionnalités dynamiques)
+- [HTML5](https://developer.mozilla.org/fr/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/fr/docs/Web/CSS)
+- [PHP](https://www.php.net/) 
+- [Google Fonts – Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P)
+- [JS](https://developer.mozilla.org/fr/docs/Web/JavaScript) 
 
 ---
 
-## 🖼️ Aperçu
 
-![Aperçu du site Jouons](./assets/image.png)
 
----
-
-## 📂 Structure du projet
+## ⚙️ Comment utiliser ce projet
 
 ```bash
-projet/
-├── homePage.html          # Page d'accueil principale du site
-├── html.html              # Page du mini-jeu
-├── devinette.php          # Script serveur pour devinette
-├── HomePage.css           # Style page d’accueil
-├── mini.css               # Style du mini-jeu
-├── navbar.css             # Style de la navbar
-├── assets/
-│   └── image.png          # Capture d'écran du site
-└── photos/                # Logos, illustrations, icônes (non inclus ici)
+# 1. Cloner le dépôt
+git clone https://github.com/ton-user/nom-du-repo.git
+cd nom-du-repo
+
+# 2. Démarrer un serveur PHP local
+php -S localhost:8000
+
+# 3. Ouvrir dans ton navigateur
+http://localhost:8000/homePage.html
